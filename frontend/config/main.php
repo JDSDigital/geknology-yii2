@@ -36,14 +36,28 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
             ],
         ],
-        */
+        // Disables Yii2 bootstrap and jquery
+
+        'assetManager' => [
+            'bundles' => [
+                /*'yii\web\JqueryAsset' => [
+                    'js'=>[]
+                ],*/
+                'yii\bootstrap\BootstrapPluginAsset' => [
+                    'js'=>[]
+                ],
+                'yii\bootstrap\BootstrapAsset' => [
+                    'css' => [],
+                ],
+            ],
+        ],
+
     ],
     'params' => $params,
 ];

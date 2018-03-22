@@ -18,28 +18,28 @@ $this->registerMetaTag(['name' => 'description', 'content' => 'Geknology es una 
 $this->registerMetaTag(['name' => 'keywords', 'content' => 'soporte, tecnico, desarrollo, diseño, redes, formateo']);
 
 // Favicon
-$this->registerLinkTag(['rel' => 'icon', 'type' => 'image/png', 'sizes' => '196x196', 'href' => Yii::getAlias('@web') . '/img/favicon-196x196.png']);
-$this->registerLinkTag(['rel' => 'icon', 'type' => 'image/png', 'sizes' => '96x96', 'href' => Yii::getAlias('@web') . '/img/favicon-96x96.png']);
-$this->registerLinkTag(['rel' => 'icon', 'type' => 'image/png', 'sizes' => '32x32', 'href' => Yii::getAlias('@web') . '/img/favicon-32x32.png']);
-$this->registerLinkTag(['rel' => 'icon', 'type' => 'image/png', 'sizes' => '16x16', 'href' => Yii::getAlias('@web') . '/img/favicon-16x16.png']);
-$this->registerLinkTag(['rel' => 'icon', 'type' => 'image/png', 'sizes' => '128x128', 'href' => Yii::getAlias('@web') . '/img/favicon-128.png']);
+$this->registerLinkTag(['rel' => 'icon', 'type' => 'image/png', 'sizes' => '196x196', 'href' => Yii::getAlias('@web') . '/img/favicon/favicon-196x196.png']);
+$this->registerLinkTag(['rel' => 'icon', 'type' => 'image/png', 'sizes' => '96x96', 'href' => Yii::getAlias('@web') . '/img/favicon/favicon-96x96.png']);
+$this->registerLinkTag(['rel' => 'icon', 'type' => 'image/png', 'sizes' => '32x32', 'href' => Yii::getAlias('@web') . '/img/favicon/favicon-32x32.png']);
+$this->registerLinkTag(['rel' => 'icon', 'type' => 'image/png', 'sizes' => '16x16', 'href' => Yii::getAlias('@web') . '/img/favicon/favicon-16x16.png']);
+$this->registerLinkTag(['rel' => 'icon', 'type' => 'image/png', 'sizes' => '128x128', 'href' => Yii::getAlias('@web') . '/img/favicon/favicon-128.png']);
 
-$this->registerLinkTag(['rel' => 'apple-touch-icon-precomposed', 'sizes' => '57x57', 'href' => Yii::getAlias('@web') . '/img/apple-touch-icon-57x57.png']);
-$this->registerLinkTag(['rel' => 'apple-touch-icon-precomposed', 'sizes' => '114x114', 'href' => Yii::getAlias('@web') . '/img/apple-touch-icon-114x114.png']);
-$this->registerLinkTag(['rel' => 'apple-touch-icon-precomposed', 'sizes' => '72x72', 'href' => Yii::getAlias('@web') . '/img/apple-touch-icon-72x72.png']);
-$this->registerLinkTag(['rel' => 'apple-touch-icon-precomposed', 'sizes' => '144x144', 'href' => Yii::getAlias('@web') . '/img/apple-touch-icon-144x144.png']);
-$this->registerLinkTag(['rel' => 'apple-touch-icon-precomposed', 'sizes' => '60x60', 'href' => Yii::getAlias('@web') . '/img/apple-touch-icon-60x60.png']);
-$this->registerLinkTag(['rel' => 'apple-touch-icon-precomposed', 'sizes' => '120x120', 'href' => Yii::getAlias('@web') . '/img/apple-touch-icon-120x120.png']);
-$this->registerLinkTag(['rel' => 'apple-touch-icon-precomposed', 'sizes' => '76x76', 'href' => Yii::getAlias('@web') . '/img/apple-touch-icon-76x76.png']);
-$this->registerLinkTag(['rel' => 'apple-touch-icon-precomposed', 'sizes' => '152x152', 'href' => Yii::getAlias('@web') . '/img/apple-touch-icon-152x152.png']);
+$this->registerLinkTag(['rel' => 'apple-touch-icon-precomposed', 'sizes' => '57x57', 'href' => Yii::getAlias('@web') . '/img/favicon/apple-touch-icon-57x57.png']);
+$this->registerLinkTag(['rel' => 'apple-touch-icon-precomposed', 'sizes' => '114x114', 'href' => Yii::getAlias('@web') . '/img/favicon/apple-touch-icon-114x114.png']);
+$this->registerLinkTag(['rel' => 'apple-touch-icon-precomposed', 'sizes' => '72x72', 'href' => Yii::getAlias('@web') . '/img/favicon/apple-touch-icon-72x72.png']);
+$this->registerLinkTag(['rel' => 'apple-touch-icon-precomposed', 'sizes' => '144x144', 'href' => Yii::getAlias('@web') . '/img/favicon/apple-touch-icon-144x144.png']);
+$this->registerLinkTag(['rel' => 'apple-touch-icon-precomposed', 'sizes' => '60x60', 'href' => Yii::getAlias('@web') . '/img/favicon/apple-touch-icon-60x60.png']);
+$this->registerLinkTag(['rel' => 'apple-touch-icon-precomposed', 'sizes' => '120x120', 'href' => Yii::getAlias('@web') . '/img/favicon/apple-touch-icon-120x120.png']);
+$this->registerLinkTag(['rel' => 'apple-touch-icon-precomposed', 'sizes' => '76x76', 'href' => Yii::getAlias('@web') . '/img/favicon/apple-touch-icon-76x76.png']);
+$this->registerLinkTag(['rel' => 'apple-touch-icon-precomposed', 'sizes' => '152x152', 'href' => Yii::getAlias('@web') . '/img/favicon/apple-touch-icon-152x152.png']);
 
 $this->registerMetaTag(['name' => 'application-name', 'content' => 'Floreria Linda Primavera']);
 $this->registerMetaTag(['name' => 'msapplication-TileColor', 'content' => '#FFFFFF']);
-$this->registerMetaTag(['name' => 'msapplication-TileImage', 'content' => './img/mstile-144x144.png']);
-$this->registerMetaTag(['name' => 'msapplication-square70x70logo', 'content' => './img/mstile-70x70.png']);
-$this->registerMetaTag(['name' => 'msapplication-square150x150logo', 'content' => './img/mstile-150x150.png']);
-$this->registerMetaTag(['name' => 'msapplication-wide310x150logo', 'content' => './img/mstile-310x150.png']);
-$this->registerMetaTag(['name' => 'msapplication-square310x310logo', 'content' => './img/mstile-310x310.png']);
+$this->registerMetaTag(['name' => 'msapplication-TileImage', 'content' => './img/favicon/mstile-144x144.png']);
+$this->registerMetaTag(['name' => 'msapplication-square70x70logo', 'content' => './img/favicon/mstile-70x70.png']);
+$this->registerMetaTag(['name' => 'msapplication-square150x150logo', 'content' => './img/favicon/mstile-150x150.png']);
+$this->registerMetaTag(['name' => 'msapplication-wide310x150logo', 'content' => './img/favicon/mstile-310x150.png']);
+$this->registerMetaTag(['name' => 'msapplication-square310x310logo', 'content' => './img/favicon/mstile-310x310.png']);
 
 ?>
 <?php $this->beginPage() ?>

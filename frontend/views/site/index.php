@@ -2,6 +2,10 @@
 
 /* @var $this yii\web\View */
 
+use yii\bootstrap\ActiveForm;
+use yii\helpers\Html;
+use yii\captcha\Captcha;
+
 $this->title = 'Geknology';
 ?>
 <!-- Revolution Slider -->
@@ -867,36 +871,56 @@ $this->title = 'Geknology';
   </div>
 
   <div class="row justify-content-center">
-    <div class="col-md-5">
-      <form>
-        <div class="row">
-          <div class="col-md-12 form-group g-mb-20">
-            <label class="g-color-gray-dark-v2 g-font-size-13">Nombre</label>
-            <input class="form-control g-color-black g-bg-white g-bg-white--focus g-brd-gray-light-v2 g-brd-primary--focus rounded-3 g-py-13 g-px-15" type="text" placeholder="John Segeur">
+      <div class="col-md-5">
+        <?php $form = ActiveForm::begin(['id' => 'contact-form']); ?>
+          <div class="g-mb-45">
+            <?= $form->field($contact, 'name')
+            ->textInput([
+              'class' => 'form-control g-color-black g-bg-white g-bg-white--focus g-brd-gray-light-v2 g-brd-primary--focus rounded-3 g-py-13 g-px-15',
+              'placeholder' => 'Juan Perez'
+            ]) ?>
           </div>
+
+        <div class="g-mb-45">
+          <?= $form->field($contact, 'email')
+          ->textInput([
+            'class' => 'form-control g-color-black g-bg-white g-bg-white--focus g-brd-gray-light-v2 g-brd-primary--focus rounded-3 g-py-13 g-px-15',
+            'placeholder' => 'correo@mail.com'
+          ]) ?>
         </div>
 
-        <div class="g-mb-20">
-          <label class="g-color-gray-dark-v2 g-font-size-13">Correo</label>
-          <input class="form-control g-color-black g-bg-white g-bg-white--focus g-brd-gray-light-v2 g-brd-primary--focus rounded-3 g-py-13 g-px-15" type="email" placeholder="correo@mail.com">
+        <div class="g-mb-45">
+          <?= $form->field($contact, 'phone')
+          ->textInput([
+            'class' => 'form-control g-color-black g-bg-white g-bg-white--focus g-brd-gray-light-v2 g-brd-primary--focus rounded-3 g-py-13 g-px-15',
+            'placeholder' => '+ (56) 9 1122 3344'
+          ]) ?>
         </div>
 
-        <div class="g-mb-20">
-          <label class="g-color-gray-dark-v2 g-font-size-13">Teléfono</label>
-          <input class="form-control g-color-black g-bg-white g-bg-white--focus g-brd-gray-light-v2 g-brd-primary--focus rounded-3 g-py-13 g-px-15" type="tel" placeholder="+ (56) 9 1122 3344">
-        </div>
-
-      </form>
     </div>
     <div class="col-md-7">
-      <div class="g-mb-40">
-        <label class="g-color-gray-dark-v2 g-font-size-13">Mensaje</label>
-        <textarea class="form-control g-color-black g-bg-white g-bg-white--focus g-brd-gray-light-v2 g-brd-primary--focus g-resize-none rounded-3 g-py-13 g-px-15" rows="12" placeholder="Escribe tu mensaje aquí..."></textarea>
+      <div class="g-mb-45">
+        <?= $form->field($contact, 'body')
+        ->textarea([
+          'class' => 'form-control g-color-black g-bg-white g-bg-white--focus g-brd-gray-light-v2 g-brd-primary--focus g-resize-none rounded-3 g-py-13 g-px-15',
+          'rows' => '8',
+          'placeholder' => 'Escribe tu mensaje aquí...'
+        ]) ?>
       </div>
 
-      <div class="text-right">
-        <button class="btn u-btn-primary g-font-weight-600 g-font-size-13 text-uppercase rounded-3 g-py-12 g-px-35" type="submit" role="button">Enviar</button>
+      <div class="g-mb-40">
+        <?= $form->field($contact, 'verifyCode')->widget(Captcha::className(), [
+          'options' => ['class' => 'form-control g-color-black g-bg-white g-bg-white--focus g-brd-gray-light-v2 g-brd-primary--focus rounded-3 g-py-13 g-px-15'],
+          'template' => '<div class="row"><div class="col-lg-3">{image}</div><div class="col-lg-9">{input}</div></div>',
+          ]) ?>
       </div>
+
+      <div class="row">
+        <div class="col-md-12 text-right">
+          <?= Html::submitButton('Enviar', ['class' => 'btn u-btn-primary g-font-weight-600 g-font-size-13 text-uppercase rounded-3 g-py-12 g-px-35', 'name' => 'submit-button']) ?>
+        </div>
+      </div>
+      <?php ActiveForm::end(); ?>
     </div>
   </div>
 </section>

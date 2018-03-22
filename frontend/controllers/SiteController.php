@@ -72,7 +72,21 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        $contact = new ContactForm();
+
+        if ($contact->load(Yii::$app->request->post()) && $contact->validate()) {
+
+            if ($contact->sendEmail())
+                Yii::$app->session->setFlash('success', 'Gracias por contactarnos. Te responderemos lo mas pronto posible.');
+            else
+                Yii::$app->session->setFlash('error', 'Ocurrió un error enviando tu mensaje. Por favor intente de nuevo.');
+
+            return $this->refresh();
+        } else {
+            return $this->render('index', [
+                'contact' => $contact,
+            ]);
+        }
     }
 
     /**
@@ -80,7 +94,7 @@ class SiteController extends Controller
      *
      * @return mixed
      */
-    public function actionLogin()
+    /*public function actionLogin()
     {
         if (!Yii::$app->user->isGuest) {
             return $this->goHome();
@@ -96,26 +110,26 @@ class SiteController extends Controller
                 'model' => $model,
             ]);
         }
-    }
+    }*/
 
     /**
      * Logs out the current user.
      *
      * @return mixed
      */
-    public function actionLogout()
+    /*public function actionLogout()
     {
         Yii::$app->user->logout();
 
         return $this->goHome();
-    }
+    }*/
 
     /**
      * Displays contact page.
      *
      * @return mixed
      */
-    public function actionContact()
+    /*public function actionContact()
     {
         $model = new ContactForm();
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
@@ -131,24 +145,24 @@ class SiteController extends Controller
                 'model' => $model,
             ]);
         }
-    }
+    }*/
 
     /**
      * Displays about page.
      *
      * @return mixed
      */
-    public function actionAbout()
+    /*public function actionAbout()
     {
         return $this->render('about');
-    }
+    }*/
 
     /**
      * Signs user up.
      *
      * @return mixed
      */
-    public function actionSignup()
+    /*public function actionSignup()
     {
         $model = new SignupForm();
         if ($model->load(Yii::$app->request->post())) {
@@ -162,14 +176,14 @@ class SiteController extends Controller
         return $this->render('signup', [
             'model' => $model,
         ]);
-    }
+    }*/
 
     /**
      * Requests password reset.
      *
      * @return mixed
      */
-    public function actionRequestPasswordReset()
+    /*public function actionRequestPasswordReset()
     {
         $model = new PasswordResetRequestForm();
         if ($model->load(Yii::$app->request->post()) && $model->validate()) {
@@ -185,7 +199,7 @@ class SiteController extends Controller
         return $this->render('requestPasswordResetToken', [
             'model' => $model,
         ]);
-    }
+    }*/
 
     /**
      * Resets password.
@@ -194,7 +208,7 @@ class SiteController extends Controller
      * @return mixed
      * @throws BadRequestHttpException
      */
-    public function actionResetPassword($token)
+    /*public function actionResetPassword($token)
     {
         try {
             $model = new ResetPasswordForm($token);
@@ -211,5 +225,5 @@ class SiteController extends Controller
         return $this->render('resetPassword', [
             'model' => $model,
         ]);
-    }
+    }*/
 }

@@ -20,5 +20,6 @@ class AppAsset extends AssetBundle
         'yii\web\YiiAsset',
         'yii\bootstrap\BootstrapAsset',
         'frontend\assets\ThemeAsset',
+        'app\assets\SweetAlertAsset',
     ];
 }

@@ -81,7 +81,7 @@ $this->registerMetaTag(['name' => 'msapplication-square310x310logo', 'content' =
           <!-- End Logo -->
 
           <!-- Navigation -->
-          <div class="collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg" id="navBar">
+          <div class="js-mega-menu collapse navbar-collapse align-items-center flex-sm-row g-pt-10 g-pt-5--lg" id="navBar">
             <ul id="js-scroll-nav" class="navbar-nav text-uppercase g-font-weight-600 ml-auto">
               <li class="nav-item g-mx-20--lg active">
                 <a href="#home" class="nav-link px-0">Inicio
@@ -91,12 +91,24 @@ $this->registerMetaTag(['name' => 'msapplication-square310x310logo', 'content' =
                 <a href="#about" class="nav-link px-0">Quienes Somos
                 </a>
               </li>
-              <li class="nav-item g-mx-20--lg">
-                <a href="#it" class="nav-link px-0">Soporte Técnico
+              <li class="nav-item hs-has-sub-menu g-mx-20--lg">
+                <a href="#it" class="nav-link g-px-0" id="nav-link-1" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-1">Soporte Técnico
                 </a>
+                <!-- Submenu -->
+                <ul class="hs-sub-menu list-unstyled g-text-transform-none g-brd-top g-brd-primary g-bg-black-opacity-0_7 g-color-white g-brd-top-2 g-min-width-200 g-mt-30 g-mt-30--lg--scrolling" id="nav-submenu-1" aria-labelledby="nav-link-1" data-header-fix-moment-exclude="g-bg-black-opacity-0_9 g-color-white" data-header-fix-moment-classes="g-bg-white-opacity-0_9 g-color-main">
+                  <li class="dropdown-item">
+                    <a class="nav-link g-px-0" href="#it1">Soporte Técnico Empresarial</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a class="nav-link g-px-0" href="#it2">Soporte Técnico a Domicilio</a>
+                  </li>
+                </ul>
+                <!-- End Submenu -->
+              </li>
               <li class="nav-item g-mx-20--lg">
                 <a href="#development" class="nav-link px-0">Desarrollo Web
                 </a>
+              </li>
               <li class="nav-item g-mx-20--lg">
                 <a href="#portfolio" class="nav-link px-0">Portafolio
                 </a>

@@ -1,5 +1,5 @@
 <?php
 return [
-    'adminEmail' => 'jdsosa@gmail.com',
+    'adminEmail' => 'contacto@geknology.com',
     'supportEmail' => 'noresponder@geknology.com',
 ];

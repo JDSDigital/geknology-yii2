@@ -395,8 +395,10 @@ $this->title = 'Geknology';
 </div>
 <!-- End Clients -->
 
+<section id="it"></section>
+
 <!-- Pricing Blocks -->
-<section id="it" class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll loaded dzsprx-readyall g-pos-rel g-overflow-hidden" data-options='{direction: "reverse", settings_mode_oneelement_max_offset: "150"}'>
+<section id="it1" class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll loaded dzsprx-readyall g-pos-rel g-overflow-hidden" data-options='{direction: "reverse", settings_mode_oneelement_max_offset: "150"}'>
   <div class="divimage dzsparallaxer--target w-100" style="height: 110%; background-image: url(./img/bg/14.jpg);"></div>
   <div class="divimage dzsparallaxer--target w-100" style="height: 110%; background: rgba(0,0,0,0.5);"></div>
 
@@ -536,7 +538,7 @@ $this->title = 'Geknology';
 <!-- End Pricing Blocks -->
 
 <!-- News Blocks -->
-<section class="container g-pt-80 g-pb-40">
+<section id="it2" class="container g-pt-80 g-pb-40">
   <div class="container text-center g-mb-60">
     <div class="text-uppercase u-heading-v2-4--bottom g-brd-primary g-mb-40">
       <h4 class="h6 g-font-weight-800 g-font-size-12 g-letter-spacing-1 g-color-primary g-mb-20">Soporte Técnico</h4>
@@ -771,8 +773,8 @@ $this->title = 'Geknology';
 <!-- End Section -->
 
 <!-- Our Recent Projects -->
-<section id="portfolio" class="g-pt-80 g-pb-40">
-  <div class="container">
+<section id="portfolio" class="g-pt-80 g-pb-0">
+  <div class="">
     <div class="container text-center g-mb-60">
       <div class="text-uppercase u-heading-v2-4--bottom g-brd-primary g-mb-40">
         <h4 class="h6 g-font-weight-800 g-font-size-12 g-letter-spacing-1 g-color-primary g-mb-20">Portafolio</h4>
@@ -782,8 +784,8 @@ $this->title = 'Geknology';
       <p class="lead g-color-black-opacity-0_8 mb-0">Analizamos las necesidades de tu negocio y te ofrecemos una solución a tu medida. Aquí verás algunos de nuestros clientes satisfechos.</p>
     </div>
 
-    <div class="row">
-      <div class="col-lg-6 col-md-6 g-mb-30 g-mb-0--lg">
+    <div class="row g-mx-0">
+      <div class="col-lg-6 col-md-6 g-mb-0--lg g-px-0">
         <article class="u-block-hover u-shadow-v21 rounded">
           <figure class="u-bg-overlay g-bg-black-opacity-0_6--after">
             <img class="img-fluid w-100 u-block-hover__main--zoom-v1" src="./img/portfolio/florerialindaprimavera.jpg" alt="Image description">
@@ -798,7 +800,7 @@ $this->title = 'Geknology';
         </article>
       </div>
 
-      <div class="col-lg-6 col-md-6 g-mb-30 g-mb-0--lg">
+      <div class="col-lg-6 col-md-6 g-mb-0--lg g-px-0">
         <article class="u-block-hover u-shadow-v21 rounded">
           <figure class="u-bg-overlay g-bg-black-opacity-0_6--after">
             <img class="img-fluid w-100 u-block-hover__main--zoom-v1" src="./img/portfolio/remesas.jpg" alt="Image description">
@@ -833,7 +835,7 @@ $this->title = 'Geknology';
 <!-- End Our Recent Projects -->
 
 <!-- Contact Form -->
-<section id="contact" class="container g-py-30">
+<section id="contact" class="container g-pb-30 g-pt-40">
   <div class="row">
     <div class="col-lg-6 g-mb-50">
       <!-- Heading -->

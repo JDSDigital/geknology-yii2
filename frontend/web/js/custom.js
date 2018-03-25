@@ -157,4 +157,11 @@ $(window).on('load', function () {
     duration: 700,
     easing: 'easeOutExpo'
   });
+
+	// initialization of HSMegaMenu component
+	$('.js-mega-menu').HSMegaMenu({
+		event: 'hover',
+		pageContainer: $('.container'),
+		breakpoint: 991
+	});
 });

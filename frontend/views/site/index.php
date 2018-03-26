@@ -6,7 +6,7 @@ use yii\bootstrap\ActiveForm;
 use yii\helpers\Html;
 use yii\captcha\Captcha;
 
-$this->title = 'Geknology';
+$this->title = 'Geknology Techno Services';
 ?>
 <!-- Revolution Slider -->
 <section id="home" class="g-overflow-hidden">
@@ -663,6 +663,21 @@ $this->title = 'Geknology';
       <!-- End Article -->
     </div>
   </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <div class="u-shadow-v3 g-bg-white g-brd-around g-brd-gray-light-v4 g-pt-30 g-pb-20 g-px-30">
+        <p>Para costos de otro tipo de servicios, favor consultar.</p>
+        <ul>
+          <li>Cambio de pantalla, teclado, jack de carga, batería, disco duro, memoria ram, etc.</li>
+          <li>Reparación o cambio de bisagras.</li>
+          <li>Reparación o cambio de placa madre.</li>
+          <li>Rebaling o Reflow.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
 </section>
 <!-- End News Blocks -->
 

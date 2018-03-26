@@ -4,6 +4,7 @@
 /* @var $content string */
 
 use yii\helpers\Html;
+use yii\helpers\Url;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
@@ -14,8 +15,54 @@ AppAsset::register($this);
 
 // Meta tags
 $this->registerMetaTag(['name' => 'author', 'content' => 'geknology.com']);
-$this->registerMetaTag(['name' => 'description', 'content' => 'Geknology es una empresa dedicada a la integración tecnológica con visión a futuro, desarrollando soluciones con procedimientos y estándares de calidad.']);
-$this->registerMetaTag(['name' => 'keywords', 'content' => 'soporte, tecnico, desarrollo, diseño, redes, formateo']);
+$this->registerMetaTag(['name' => 'description', 'content' => 'Geknology Techno Services ✓ Soporte Técnico ; Desarrollo Web ; Diseño Digital ; Redes | ¡Llámanos ☎ (569) 6775 0215!']);
+$this->registerMetaTag(['name' => 'keywords', 'content' => 'desarrollo web, diseño web, reparacion notebook, tecnico notebook, tecnico pc']);
+$this->registerMetaTag(['rel' => 'canonical', 'href' => 'http://www.geknology.com']);
+
+$this->registerMetaTag([
+    'property' => 'og:url',
+    'content' => Url::to(['/site/index'], true)
+]);
+
+$this->registerMetaTag([
+    'property' => 'og:type',
+    'content' => 'website'
+]);
+
+$this->registerMetaTag([
+    'property' => 'og:title',
+    'content' => 'Geknology Techno Services'
+]);
+
+$this->registerMetaTag([
+    'property' => 'og:description',
+    'content' => 'Geknology Techno Services ✓ Soporte Técnico ; Desarrollo Web ; Diseño Digital ; Redes | ¡Llámanos ☎ (569) 6775 0215!'
+]);
+
+$this->registerMetaTag([
+    'property' => 'og:image',
+    'content' => Url::to(['/img/logo/logo.png'], true)
+]);
+
+$this->registerMetaTag([
+    'property' => 'og:image:alt',
+    'content' => 'Geknology Techno Services'
+]);
+
+$this->registerMetaTag([
+    'property' => 'twitter:card',
+    'content' => 'summary'
+]);
+
+$this->registerMetaTag([
+    'property' => 'twitter:description',
+    'content' => 'Geknology Techno Services ✓ Soporte Técnico ; Desarrollo Web ; Diseño Digital ; Redes | ¡Llámanos ☎ (569) 6775 0215!'
+]);
+
+$this->registerMetaTag([
+    'property' => 'twitter:title',
+    'content' => 'Geknology Techno Services'
+]);
 
 // Favicon
 $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/png', 'sizes' => '196x196', 'href' => Yii::getAlias('@web') . '/img/favicon/favicon-196x196.png']);
@@ -33,7 +80,7 @@ $this->registerLinkTag(['rel' => 'apple-touch-icon-precomposed', 'sizes' => '120
 $this->registerLinkTag(['rel' => 'apple-touch-icon-precomposed', 'sizes' => '76x76', 'href' => Yii::getAlias('@web') . '/img/favicon/apple-touch-icon-76x76.png']);
 $this->registerLinkTag(['rel' => 'apple-touch-icon-precomposed', 'sizes' => '152x152', 'href' => Yii::getAlias('@web') . '/img/favicon/apple-touch-icon-152x152.png']);
 
-$this->registerMetaTag(['name' => 'application-name', 'content' => 'Floreria Linda Primavera']);
+$this->registerMetaTag(['name' => 'application-name', 'content' => 'Geknology Techno Services']);
 $this->registerMetaTag(['name' => 'msapplication-TileColor', 'content' => '#FFFFFF']);
 $this->registerMetaTag(['name' => 'msapplication-TileImage', 'content' => './img/favicon/mstile-144x144.png']);
 $this->registerMetaTag(['name' => 'msapplication-square70x70logo', 'content' => './img/favicon/mstile-70x70.png']);

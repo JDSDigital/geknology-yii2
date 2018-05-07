@@ -164,4 +164,20 @@ $(window).on('load', function () {
 		pageContainer: $('.container'),
 		breakpoint: 991
 	});
+
+	$('#btn-submit').on('click', function(e) {
+		let fields = ['name', 'email', 'phone', 'body', 'verifycode'];
+		let names = ['Nombre', 'Correo', 'Teléfono', 'Mensaje', 'Código de verificación'];
+
+		for (let i = 0; i < fields.length; i++) {
+			if ($('#contactform-'+fields[i]).val() == '') {
+				console.log(fields[i]);
+				swal('Error', names[i]+' no puede estar vacío.', 'error');
+				return false;
+			}
+		}
+		
+		return true;
+	});
+
 });

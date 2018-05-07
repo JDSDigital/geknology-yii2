@@ -934,7 +934,7 @@ $this->title = 'Geknology Techno Services';
 
       <div class="row">
         <div class="col-md-12 text-right">
-          <?= Html::submitButton('Enviar', ['class' => 'btn u-btn-primary g-font-weight-600 g-font-size-13 text-uppercase rounded-3 g-py-12 g-px-35', 'name' => 'submit-button']) ?>
+          <?= Html::submitButton('Enviar', ['id' => 'btn-submit', 'class' => 'btn u-btn-primary g-font-weight-600 g-font-size-13 text-uppercase rounded-3 g-py-12 g-px-35', 'name' => 'submit-button']) ?>
         </div>
       </div>
       <?php ActiveForm::end(); ?>

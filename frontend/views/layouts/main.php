@@ -164,6 +164,10 @@ $this->registerMetaTag(['name' => 'msapplication-square310x310logo', 'content' =
                 <a href="#contact" class="nav-link px-0">Contacto
                 </a>
               </li>
+              <li class="nav-item g-mx-20--lg">
+                <a target="_blank" href="https://goo.gl/YWpQ3V" class="nav-link px-0">Califícanos
+                </a>
+              </li>
             </ul>
           </div>
           <!-- End Navigation -->

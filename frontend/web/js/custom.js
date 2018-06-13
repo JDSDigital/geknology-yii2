@@ -159,11 +159,11 @@ $(window).on('load', function () {
   });
 
 	// initialization of HSMegaMenu component
-	// $('.js-mega-menu').HSMegaMenu({
-	// 	event: 'hover',
-	// 	pageContainer: $('.container'),
-	// 	breakpoint: 991
-	// });
+	$('.js-mega-menu').HSMegaMenu({
+		event: 'hover',
+		pageContainer: $('.container'),
+		breakpoint: 991
+	});
 
 	$('#btn-submit').on('click', function(e) {
 		let fields = ['name', 'email', 'phone', 'body', 'verifycode'];

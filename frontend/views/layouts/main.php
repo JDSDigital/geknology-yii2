@@ -281,6 +281,24 @@ $this->registerMetaTag(['name' => 'msapplication-square310x310logo', 'content' =
               </ul>
             </div>
           </article>
+
+          <hr class="g-brd-white-opacity-0_1 g-mt-15 g-mb-10">
+
+          <article class="media">
+            <a class="d-flex g-mt-4 mr-3" target="_blank" href="http://www.triadeconsultores.cl">
+              <img class="g-width-60 g-height-60" src="./img/portfolio/triadethumb.jpg" alt="Image Description">
+            </a>
+
+            <div class="media-body">
+              <h3 class="h6">
+                <a class="g-color-white-opacity-0_8 g-color-white--hover" target="_blank" href="http://www.triadeconsultores.cl">Triade Consultores</a>
+              </h3>
+
+              <ul class="u-list-inline g-font-size-12">
+                <li class="list-inline-item"><a class="g-color-white-opacity-0_8 g-color-white--hover" target="_blank" href="http://www.triadeconsultores.cl">www.triadeconsultores.cl</a></li>
+              </ul>
+            </div>
+          </article>
         </div>
         <!-- End Footer Content -->
 

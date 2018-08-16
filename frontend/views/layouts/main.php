@@ -17,7 +17,7 @@ AppAsset::register($this);
 $this->registerMetaTag(['name' => 'author', 'content' => 'geknology.com']);
 $this->registerMetaTag(['name' => 'description', 'content' => 'Geknology Techno Services ✓ Soporte Técnico ; Desarrollo Web ; Diseño Digital ; Redes | ¡Llámanos ☎ (569) 6775 0215!']);
 $this->registerMetaTag(['name' => 'keywords', 'content' => 'desarrollo web, diseño web, reparacion notebook, tecnico notebook, tecnico pc']);
-$this->registerMetaTag(['rel' => 'canonical', 'href' => 'http://www.geknology.com']);
+$this->registerMetaTag(['rel' => 'canonical', 'href' => 'https://www.geknology.com']);
 
 $this->registerMetaTag([
     'property' => 'og:url',

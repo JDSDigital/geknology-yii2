@@ -248,57 +248,83 @@ $this->registerMetaTag(['name' => 'msapplication-square310x310logo', 'content' =
             <h2 class="u-heading-v2__title h6 text-uppercase mb-0">Nuestro Portafolio</h2>
           </div>
 
-          <article class="media">
-            <a class="d-flex g-mt-4 mr-3" target="_blank" href="http://www.florerialindaprimavera.cl">
-              <img class="g-width-60 g-height-60" src="./img/portfolio/florerialindaprimaverathumb.jpg" alt="Image Description">
-            </a>
+          <div class="row">
+            <div class="col-lg-6">
+              <article class="media">
+                <a class="d-flex g-mt-4 mr-3" target="_blank" href="http://www.openhousse.cl">
+                  <img class="g-width-60 g-height-60" src="./img/portfolio/openhoussethumb.jpg" alt="Image Description">
+                </a>
 
-            <div class="media-body">
-              <h3 class="h6">
-                <a class="g-color-white-opacity-0_8 g-color-white--hover" target="_blank" href="http://www.florerialindaprimavera.cl">Florería Linda Primavera</a>
-              </h3>
+                <div class="media-body">
+                  <h3 class="h6">
+                    <a class="g-color-white-opacity-0_8 g-color-white--hover" target="_blank" href="http://www.openhousse.cl">Open Housse</a>
+                  </h3>
 
-              <ul class="u-list-inline g-font-size-12">
-                <li class="list-inline-item"><a class="g-color-white-opacity-0_8 g-color-white--hover" target="_blank" href="http://www.florerialindaprimavera.cl">www.florerialindaprimavera.cl</a></li>
-              </ul>
+                  <ul class="u-list-inline g-font-size-12">
+                    <li class="list-inline-item"><a class="g-color-white-opacity-0_8 g-color-white--hover" target="_blank" href="http://www.openhousse.cl">www.openhousse.cl</a></li>
+                  </ul>
+                </div>
+              </article>
+
+              <hr class="g-brd-white-opacity-0_1 g-mt-15 g-mb-10">
+
+              <article class="media">
+                <a class="d-flex g-mt-4 mr-3" target="_blank" href="http://www.florerialindaprimavera.cl">
+                  <img class="g-width-60 g-height-60" src="./img/portfolio/florerialindaprimaverathumb.jpg" alt="Image Description">
+                </a>
+
+                <div class="media-body">
+                  <h3 class="h6">
+                    <a class="g-color-white-opacity-0_8 g-color-white--hover" target="_blank" href="http://www.florerialindaprimavera.cl">Florería Linda Primavera</a>
+                  </h3>
+
+                  <ul class="u-list-inline g-font-size-12">
+                    <li class="list-inline-item"><a class="g-color-white-opacity-0_8 g-color-white--hover" target="_blank" href="http://www.florerialindaprimavera.cl">www.florerialindaprimavera.cl</a></li>
+                  </ul>
+                </div>
+              </article>
+
+              <hr class="g-brd-white-opacity-0_1 g-mt-15 g-mb-10">
+
             </div>
-          </article>
+            <div class="col-lg-6">
+              <article class="media">
+                <a class="d-flex g-mt-4 mr-3" target="_blank" href="http://www.remesas.cl">
+                  <img class="g-width-60 g-height-60" src="./img/portfolio/remesasthumb.jpg" alt="Image Description">
+                </a>
 
-          <hr class="g-brd-white-opacity-0_1 g-mt-15 g-mb-10">
+                <div class="media-body">
+                  <h3 class="h6">
+                    <a class="g-color-white-opacity-0_8 g-color-white--hover" target="_blank" href="http://www.remesas.cl">REMESAS.CL | Chile.net.ve </a>
+                  </h3>
 
-          <article class="media">
-            <a class="d-flex g-mt-4 mr-3" target="_blank" href="http://www.remesas.cl">
-              <img class="g-width-60 g-height-60" src="./img/portfolio/remesasthumb.jpg" alt="Image Description">
-            </a>
+                  <ul class="u-list-inline g-font-size-12">
+                    <li class="list-inline-item"><a class="g-color-white-opacity-0_8 g-color-white--hover" target="_blank" href="http://www.remesas.cl">www.remesas.cl</a></li>
+                  </ul>
+                </div>
+              </article>
 
-            <div class="media-body">
-              <h3 class="h6">
-                <a class="g-color-white-opacity-0_8 g-color-white--hover" target="_blank" href="http://www.remesas.cl">REMESAS.CL | Chile.net.ve </a>
-              </h3>
+              <hr class="g-brd-white-opacity-0_1 g-mt-15 g-mb-10">
 
-              <ul class="u-list-inline g-font-size-12">
-                <li class="list-inline-item"><a class="g-color-white-opacity-0_8 g-color-white--hover" target="_blank" href="http://www.remesas.cl">www.remesas.cl</a></li>
-              </ul>
+              <article class="media">
+                <a class="d-flex g-mt-4 mr-3" target="_blank" href="http://www.triadeconsultores.cl">
+                  <img class="g-width-60 g-height-60" src="./img/portfolio/triadethumb.jpg" alt="Image Description">
+                </a>
+
+                <div class="media-body">
+                  <h3 class="h6">
+                    <a class="g-color-white-opacity-0_8 g-color-white--hover" target="_blank" href="http://www.triadeconsultores.cl">Triade Consultores</a>
+                  </h3>
+
+                  <ul class="u-list-inline g-font-size-12">
+                    <li class="list-inline-item"><a class="g-color-white-opacity-0_8 g-color-white--hover" target="_blank" href="http://www.triadeconsultores.cl">www.triadeconsultores.cl</a></li>
+                  </ul>
+                </div>
+              </article>
+
             </div>
-          </article>
+          </div>
 
-          <hr class="g-brd-white-opacity-0_1 g-mt-15 g-mb-10">
-
-          <article class="media">
-            <a class="d-flex g-mt-4 mr-3" target="_blank" href="http://www.triadeconsultores.cl">
-              <img class="g-width-60 g-height-60" src="./img/portfolio/triadethumb.jpg" alt="Image Description">
-            </a>
-
-            <div class="media-body">
-              <h3 class="h6">
-                <a class="g-color-white-opacity-0_8 g-color-white--hover" target="_blank" href="http://www.triadeconsultores.cl">Triade Consultores</a>
-              </h3>
-
-              <ul class="u-list-inline g-font-size-12">
-                <li class="list-inline-item"><a class="g-color-white-opacity-0_8 g-color-white--hover" target="_blank" href="http://www.triadeconsultores.cl">www.triadeconsultores.cl</a></li>
-              </ul>
-            </div>
-          </article>
         </div>
         <!-- End Footer Content -->
 

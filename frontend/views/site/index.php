@@ -800,7 +800,7 @@ $this->title = 'Geknology Techno Services';
     </div>
 
     <div class="row g-mx-0">
-      <div class="col-lg-4 col-md-4 g-mb-0--lg g-px-0">
+      <div class="col-lg-3 col-md-3 g-mb-0--lg g-px-0">
         <article class="u-block-hover u-shadow-v21 rounded">
           <figure class="u-bg-overlay g-bg-black-opacity-0_6--after">
             <img class="img-fluid w-100 u-block-hover__main--zoom-v1" src="./img/portfolio/florerialindaprimavera.jpg" alt="Image description">
@@ -815,7 +815,7 @@ $this->title = 'Geknology Techno Services';
         </article>
       </div>
 
-      <div class="col-lg-4 col-md-4 g-mb-0--lg g-px-0">
+      <div class="col-lg-3 col-md-3 g-mb-0--lg g-px-0">
         <article class="u-block-hover u-shadow-v21 rounded">
           <figure class="u-bg-overlay g-bg-black-opacity-0_6--after">
             <img class="img-fluid w-100 u-block-hover__main--zoom-v1" src="./img/portfolio/remesas.jpg" alt="Image description">
@@ -830,7 +830,7 @@ $this->title = 'Geknology Techno Services';
         </article>
       </div>
 
-      <div class="col-lg-4 col-md-4 g-mb-0--lg g-px-0">
+      <div class="col-lg-3 col-md-3 g-mb-0--lg g-px-0">
         <article class="u-block-hover u-shadow-v21 rounded">
           <figure class="u-bg-overlay g-bg-black-opacity-0_6--after">
             <img class="img-fluid w-100 u-block-hover__main--zoom-v1" src="./img/portfolio/triade.jpg" alt="Image description">
@@ -845,20 +845,21 @@ $this->title = 'Geknology Techno Services';
         </article>
       </div>
 
-      <!--<div class="col-lg-4 col-md-6">
+      <div class="col-lg-3 col-md-3 g-mb-0--lg g-px-0">
         <article class="u-block-hover u-shadow-v21 rounded">
-          <figure class="u-bg-overlay g-bg-black-opacity-0_4&#45;&#45;after">
-            <img class="img-fluid w-100 u-block-hover__main&#45;&#45;zoom-v1" src="./img-temp/400x270/img1.jpg" alt="Image description">
+          <figure class="u-bg-overlay g-bg-black-opacity-0_6--after">
+            <img class="img-fluid w-100 u-block-hover__main--zoom-v1" src="./img/portfolio/openhousse.jpg" alt="Image description">
           </figure>
 
-          <header class="u-bg-overlay__inner g-pos-abs g-top-30 g-right-30 g-left-30 g-color-white">
+          <header class="u-bg-overlay__inner g-pos-abs g-top-30 g-right-30 g-left-30 g-color-white text-center">
             <h3 class="h4">
-                <a class="g-color-white" href="#">Hac habitasse platea</a>
+                <a class="g-color-white" target="_blank" href="http://www.openhousse.cl">Open Housse</a>
               </h3>
-            <p>Consectetur adipiscing elitut eleifend nisl</p>
+            <p>Sitio web administrable para una agencia inmobiliaria.</p>
           </header>
         </article>
-      </div>-->
+      </div>
+
     </div>
   </div>
 </section>

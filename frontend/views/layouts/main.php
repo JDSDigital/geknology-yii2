@@ -289,17 +289,17 @@ $this->registerMetaTag(['name' => 'msapplication-square310x310logo', 'content' =
             </div>
             <div class="col-lg-6">
               <article class="media">
-                <a class="d-flex g-mt-4 mr-3" target="_blank" href="http://www.remesas.cl">
-                  <img class="g-width-60 g-height-60" src="./img/portfolio/remesasthumb.jpg" alt="Image Description">
+                <a class="d-flex g-mt-4 mr-3" target="_blank" href="https://www.draestetica.com">
+                  <img class="g-width-60 g-height-60" src="./img/portfolio/draesteticathumb.jpg" alt="Image Description">
                 </a>
 
                 <div class="media-body">
                   <h3 class="h6">
-                    <a class="g-color-white-opacity-0_8 g-color-white--hover" target="_blank" href="http://www.remesas.cl">REMESAS.CL | Chile.net.ve </a>
+                    <a class="g-color-white-opacity-0_8 g-color-white--hover" target="_blank" href="http://www.draestetica.com">Dra. Estética</a>
                   </h3>
 
                   <ul class="u-list-inline g-font-size-12">
-                    <li class="list-inline-item"><a class="g-color-white-opacity-0_8 g-color-white--hover" target="_blank" href="http://www.remesas.cl">www.remesas.cl</a></li>
+                    <li class="list-inline-item"><a class="g-color-white-opacity-0_8 g-color-white--hover" target="_blank" href="http://www.draestetica.com">www.draestetica.com</a></li>
                   </ul>
                 </div>
               </article>

@@ -818,21 +818,6 @@ $this->title = 'Geknology Techno Services';
       <div class="col-lg-3 col-md-3 g-mb-0--lg g-px-0">
         <article class="u-block-hover u-shadow-v21 rounded">
           <figure class="u-bg-overlay g-bg-black-opacity-0_6--after">
-            <img class="img-fluid w-100 u-block-hover__main--zoom-v1" src="./img/portfolio/remesas.jpg" alt="Image description">
-          </figure>
-
-          <header class="u-bg-overlay__inner g-pos-abs g-top-30 g-right-30 g-left-30 g-color-white text-center">
-            <h3 class="h4">
-                <a class="g-color-white" target="_blank" href="http://www.remesas.cl">REMESAS.CL | Chile.net.ve</a>
-              </h3>
-            <p>Sitio web administrable, altamente personalizado para el envío de remesas.</p>
-          </header>
-        </article>
-      </div>
-
-      <div class="col-lg-3 col-md-3 g-mb-0--lg g-px-0">
-        <article class="u-block-hover u-shadow-v21 rounded">
-          <figure class="u-bg-overlay g-bg-black-opacity-0_6--after">
             <img class="img-fluid w-100 u-block-hover__main--zoom-v1" src="./img/portfolio/triade.jpg" alt="Image description">
           </figure>
 
@@ -856,6 +841,21 @@ $this->title = 'Geknology Techno Services';
                 <a class="g-color-white" target="_blank" href="http://www.openhousse.cl">Open Housse</a>
               </h3>
             <p>Sitio web administrable para una agencia inmobiliaria.</p>
+          </header>
+        </article>
+      </div>
+      
+      <div class="col-lg-3 col-md-3 g-mb-0--lg g-px-0">
+        <article class="u-block-hover u-shadow-v21 rounded">
+          <figure class="u-bg-overlay g-bg-black-opacity-0_6--after">
+            <img class="img-fluid w-100 u-block-hover__main--zoom-v1" src="./img/portfolio/draestetica.jpg" alt="Image description">
+          </figure>
+
+          <header class="u-bg-overlay__inner g-pos-abs g-top-30 g-right-30 g-left-30 g-color-white text-center">
+            <h3 class="h4">
+                <a class="g-color-white" target="_blank" href="https://www.draestetica.com">Dra. Estética</a>
+              </h3>
+            <p>Sitio web administrable para una clínica estética.</p>
           </header>
         </article>
       </div>
